@@ -2,7 +2,6 @@
 By leveraging customer financial activity data, geographic factors, and demographic attributes, the system aims to identify customers at risk of churn and help banks implement retention strategies. Using a structured approach following the CRISP-DM methodology, integrating descriptive analysis, predictive modeling, and interactive dashboards. 
 
 
-Here’s a detailed and structured **README file** that follows the flow of your report. This will make it easier for you to copy-paste images and sections from the report into your GitHub repository:
 
 ---
 
