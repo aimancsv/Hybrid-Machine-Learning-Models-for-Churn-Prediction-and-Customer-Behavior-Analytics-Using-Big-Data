@@ -5,12 +5,7 @@ By leveraging customer financial activity data, geographic factors, and demograp
 
 ---
 
-# **Hybrid Machine Learning Models for Customer Behavior Analytics and Churn Prediction in Banking Using Big Data**
 
-## **Overview**
-This project explores customer churn prediction in the banking sector using hybrid machine learning models and big data analytics. By analyzing customer demographics, financial activity patterns, and geographic factors, the system aims to predict customer churn and provide actionable insights for retention strategies. The project is built on the CRISP-DM methodology and integrates descriptive analysis, predictive modeling, and interactive dashboards.
-
----
 
 ## **Table of Contents**
 1. [Introduction](#introduction)  
