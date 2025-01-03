@@ -106,27 +106,31 @@ The project follows the six phases of the CRISP-DM framework:
 # 4.1 **Random Forest**:
    - Evaluated financial activity patterns.  
    - Achieved **94% accuracy** for non-churn predictions but struggled with churn detection.
+
+
   
 ### A. Data Distribution 
 
    ![report](https://github.com/user-attachments/assets/ba05bb97-f1de-4df0-b3bc-c5e942d6e9ca)
+
+   ---
 
     
 
 ### B. Potential Outliers 
   <img width="700" alt="image" src="https://github.com/user-attachments/assets/c8ffc76e-ffe4-47e6-8317-a9f79db670af" />
 
-    ---
+  ---
 
 ### C. Correlation Heatmap of Financial Activity Metrics in Relation to Churn Prediction
   <img width="700" alt="image" src="https://github.com/user-attachments/assets/b1dc4ce0-21ee-4ae0-bd7c-f037f4db826e" />
 
-    ---
+  ---
 
 ### D. Multivariate Regression Analysis of Financial Activity Metrics for Churn Prediction
   <img width="700" alt="Screenshot 2025-01-03 at 11 14 22 AM" src="https://github.com/user-attachments/assets/abcef536-4a6e-4897-94e2-0ae8e9303af7" />
 
-    ---
+  ---
     
 ### E. OLAP Dashboard for Financial Metrics Distribution
    <img width="350" alt="Screenshot 2025-01-03 at 11 15 29 AM" src="https://github.com/user-attachments/assets/5dc4a553-4c7d-4aa6-93be-de95a66500d0" />
@@ -138,81 +142,73 @@ The project follows the six phases of the CRISP-DM framework:
    <img width="350" alt="Screenshot 2025-01-03 at 11 18 21 AM" src="https://github.com/user-attachments/assets/d11faacf-c552-4c9a-901b-317e8ff2b9a3" />
    <img width="350" alt="Screenshot 2025-01-03 at 11 18 56 AM" src="https://github.com/user-attachments/assets/b32e63d8-f5b5-44bb-b101-52065b4ab0fd" />
 
+   ---
+
 
 ### F. Predictive Analysis – Random Forest Classifier
    <img width="700" alt="Screenshot 2025-01-03 at 11 31 20 AM" src="https://github.com/user-attachments/assets/9b26bea2-61b0-4e03-b11f-fbb685a0b453" />
 
-
-    ---
+   ---
 
 
    <img width="700" alt="Screenshot 2025-01-03 at 11 31 47 AM" src="https://github.com/user-attachments/assets/e5e464b1-0082-4b21-8445-c579394c5a0d" />
 
-    ---
+   ---
 
    <img width="700" alt="Screenshot 2025-01-03 at 11 32 21 AM" src="https://github.com/user-attachments/assets/04cfc633-e876-4c46-8a0f-75cdf7918047" />
 
-    ---
+   ---
 
    <img width="700" alt="Screenshot 2025-01-03 at 11 33 04 AM" src="https://github.com/user-attachments/assets/f105dbd0-8e8b-45fc-abbc-98f93495a8f7" />
 
-
-    ---
+   ---
 
 
    <img width="700" alt="Screenshot 2025-01-03 at 11 34 08 AM" src="https://github.com/user-attachments/assets/2de8a14c-ceb7-4bf2-8390-64052bde0130" />
 
-
-    ---
+   ---
 
 
    <img width="700" alt="Screenshot 2025-01-03 at 11 35 19 AM" src="https://github.com/user-attachments/assets/8d62bdcb-f132-4c81-a37e-4c95a29bafd8" />
 
-
-    ---
+   ---
 
 
    <img width="700" alt="Screenshot 2025-01-03 at 11 35 36 AM" src="https://github.com/user-attachments/assets/7a4ffe33-953c-495a-a77d-1224faca5dc8" />
 
 
----
+   ---
 
 # 4.2 **Logistic Regression**:
    - Analyzed geographic and net worth factors.  
    - Highlighted customer segments at higher churn risk.
    - To evaluate the influence of customer net worth and geographic factors on churn
   
-## Details in the Full Report...
-
-
-
-
+**<span style="color:red; font-size: 1.2em;">Details in the Full Report</span>**
 ---
+
 # 4.3 **Decision Tree Classifier**:
    - Explored transaction patterns and their temporal effects.
    - To examine the correlation between temporal transaction patterns and churn
   
-## Details in the Full Report...
-
+**<span style="color:red; font-size: 1.2em;">Details in the Full Report</span>**
   ---
 # 4.4 **XGBoost**:
    - Focused on demographic and tenure impact. 
   
 
-## Details in the Full Report...
-
+**<span style="color:red; font-size: 1.2em;">Details in the Full Report</span>**
 
 ---
 
 ## **5. Results and Insights**
 
-- **High-Risk Segments**:
-   - Customers with low balances and irregular transactions.  
-   - Certain geographic regions show higher churn rates.
+  The results indicate that **Random Forest** performed exceptionally well in predicting non-churn customers with an accuracy of **94%**, while models like **Logistic Regression** and         **XGBoost** offered valuable insights into the relationship between demographics, geographic factors, and customer tenure. However, a common challenge across the models was the lower        precision in detecting churn cases, highlighting the need for further refinement in feature engineering and algorithm selection.
 
-- **Model Performance**:
-   - Random Forest excels in non-churn prediction; requires tuning for churn detection.
-   - XGBoost provides robust insights into demographic factors.  
+Key findings include:  
+- **High-Balance Customers**: These customers are significantly less likely to churn, suggesting that financial stability plays a critical role in retention.  
+- **Geographic and Demographic Influence**: Certain regions and age groups exhibit higher churn rates, enabling banks to design targeted retention strategies.  
+- **Transaction Patterns**: Customers with irregular or infrequent transactions showed higher churn risks, emphasizing the importance of monitoring financial activity.
 
 ---
 
