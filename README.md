@@ -16,12 +16,10 @@ This project explores customer churn prediction in the banking sector using hybr
 ## **Table of Contents**
 1. [Introduction](#introduction)  
 2. [Aim and Objectives](#aim-and-objectives)  
-3. [Big Data Analytics Lifecycle](#big-data-analytics-lifecycle)  
-4. [Descriptive Analysis](#descriptive-analysis)  
-5. [Data Preparation](#data-preparation)  
-6. [Modeling and Evaluation](#modeling-and-evaluation)  
-7. [Results and Insights](#results-and-insights)  
-8. [Future Enhancements](#future-enhancements)
+3. [Big Data Analytics Lifecycle](#big-data-analytics-lifecycle)   
+4. [Modeling and Evaluation](#modeling-and-evaluation)  
+5. [Results and Insights](#results-and-insights)  
+6. [Future Enhancements](#future-enhancements)
 
 ---
 
