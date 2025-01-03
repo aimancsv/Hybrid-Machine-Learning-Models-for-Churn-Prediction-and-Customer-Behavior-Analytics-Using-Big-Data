@@ -112,7 +112,6 @@ The project follows the six phases of the CRISP-DM framework:
    ![report](https://github.com/user-attachments/assets/ba05bb97-f1de-4df0-b3bc-c5e942d6e9ca)
 
     
-    ---
 
 ### B. Potential Outliers 
   <img width="700" alt="image" src="https://github.com/user-attachments/assets/c8ffc76e-ffe4-47e6-8317-a9f79db670af" />
