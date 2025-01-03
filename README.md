@@ -100,7 +100,7 @@ The project follows the six phases of the CRISP-DM framework:
     
 
 
-# 4. **Modeling & Evaluation:**: 
+# 4. **Modeling & Evaluation:**
 
 
 # 4.1 **Random Forest**:
