@@ -1,14 +1,14 @@
 # Hybrid-Machine-Learning-Models-for-Churn-Prediction-and-Customer-Behavior-Analytics-Using-Big-Data
 By leveraging customer financial activity data, geographic factors, and demographic attributes, the system aims to identify customers at risk of churn and help banks implement retention strategies. Using a structured approach following the CRISP-DM methodology, integrating descriptive analysis, predictive modeling, and interactive dashboards. 
 
-**[Full Report: 135 Pages](./Full_Report_pdf)**
+**[Full Report: 135 Pages](./Full_Report.pdf)**
 
 ---
 
 
 
 ## **Table of Contents**
-1. [Introduction](##introduction)  
+1. [Introduction](##Introduction)  
 2. [Aim and Objectives](#aim-and-objectives)  
 3. [Big Data Analytics Lifecycle](#big-data-analytics-lifecycle)   
 4. [Modeling and Evaluation](#modeling-and-evaluation)  
@@ -184,7 +184,7 @@ The project follows the six phases of the CRISP-DM framework:
    - Highlighted customer segments at higher churn risk.
    - To evaluate the influence of customer net worth and geographic factors on churn
   
-**<span style="color:red; font-size: 1.2em;">Details in the **[Full Report](./Full_Report_pdf)**</span>**
+**<span style="color:red; font-size: 1.2em;">Details in the **[Full Report](./Full_Report.pdf)**</span>**
 
 ---
 
@@ -192,14 +192,14 @@ The project follows the six phases of the CRISP-DM framework:
    - Explored transaction patterns and their temporal effects.
    - To examine the correlation between temporal transaction patterns and churn
   
-**<span style="color:red; font-size: 1.2em;">Details in the **[Full Report](./Full_Report_pdf)**</span>**
+**<span style="color:red; font-size: 1.2em;">Details in the **[Full Report](./Full_Report.pdf)**</span>**
 
   ---
 # 4.4 **XGBoost**:
    - Focused on demographic and tenure impact. 
   
 
-**<span style="color:red; font-size: 1.2em;">Details in the **[Full Report](./Full_Report_pdf)**</span>**
+**<span style="color:red; font-size: 1.2em;">Details in the **[Full Report](./Full_Report.pdf)**</span>**
 
 ---
 
