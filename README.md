@@ -7,6 +7,13 @@ By leveraging customer financial activity data, geographic factors, and demograp
 
 
 
+## **Table of Contents**
+1. [Introduction](#introduction)  
+2. [Aim and Objectives](#aim-and-objectives)  
+3. [Big Data Analytics Lifecycle](#big-data-analytics-lifecycle)   
+4. [Modeling and Evaluation](#modeling-and-evaluation)  
+5. [Results and Insights](#results-and-insights)  
+6. [Future Enhancements](#future-enhancements)
 
 ---
 
