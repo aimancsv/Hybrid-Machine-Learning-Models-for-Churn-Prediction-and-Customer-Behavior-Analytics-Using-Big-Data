@@ -68,7 +68,7 @@ The project follows the six phases of the CRISP-DM framework:
     ---
     <img width="500" alt="Screenshot 2025-01-03 at 10 09 57 AM" src="https://github.com/user-attachments/assets/0516e7f2-3591-4ebb-8cc6-92947d91d9d8" />
 
-    ### The missing value is replaced with the mode method, which is the most common method of data imputation. In this method, you replace all the missing data with the mean, median, or        mode of the column.
+    ### The missing value is replaced with the mode method, which is the most common method of data imputation. In this method, you replace all the missing data with the mean, median, or        mode of the column. 
     ---
    
     <img width="700" alt="Screenshot 2025-01-03 at 10 06 09 AM" src="https://github.com/user-attachments/assets/29bfeff3-c90f-455f-bcca-16f7fe85763f" />
@@ -98,91 +98,122 @@ The project follows the six phases of the CRISP-DM framework:
 
     ---
 
+    ### Outliers:
+   
+    <img width="600" alt="Screenshot 2025-01-03 at 10 57 35 AM" src="https://github.com/user-attachments/assets/b58c9e58-1f9c-434c-894a-084b57eb185e" />
+
+    ### **The rest of the Outlier is in the full Report**
+
+    ---
+    
 
 
-5. **Modeling**: Develop and evaluate hybrid machine learning models.  
-6. **Evaluation**: Assess model performance using metrics like accuracy, precision, recall, and F1-score.  
-7. **Deployment**: Provide insights through interactive dashboards.  
+4. **Modeling & Evaluation:**: 
 
----
 
-## **4. Descriptive Analysis**
-
-### **Key Insights**:
-1. **Customer Demographics**:
-   - Majority of customers are aged 40–45 and maintain low to moderate account balances.
-   - 59% of customers are male, while 41% are female.  
-
-   _Example Image_:  
-   ![Age Distribution](./images/age_distribution.png)
-
-2. **Financial Activity**:
-   - Customers maintain stable average balances between 2,000–4,000 units.
-   - Majority of debit and credit transactions are small (below 50 units).  
-
-   _Example Image_:  
-   ![Balance Distribution](./images/balance_distribution.png)
-
-3. **Correlation Analysis**:
-   - Higher account balances correlate with lower churn risk.
-   - Temporal patterns in transactions are weakly correlated with churn.
-
-   _Example Image_:  
-   ![Correlation Heatmap](./images/correlation_heatmap.png)
-
----
-
-## **5. Data Preparation**
-
-### **Key Steps**:
-1. **Data Cleaning**:
-   - Removed missing values in critical columns like `last_transaction`.
-   - Dropped redundant features like `customer_id`.  
-   - Handled outliers in financial metrics using interquartile ranges.
-
-   _Example Image_:  
-   ![Outlier Removal](./images/outlier_removal.png)
-
-2. **Feature Engineering**:
-   - One-hot encoding for categorical variables (e.g., occupation, city).  
-   - Binary encoding for gender.  
-   - Temporal splitting of `last_transaction` into day, month, and year.
-
-   _Example Image_:  
-   ![Feature Engineering](./images/feature_engineering.png)
-
-3. **Final Dataset**:
-   - Prepared dataset with 20+ engineered features for model training.  
-
----
-
-## **6. Modeling and Evaluation**
-
-### **Machine Learning Models**:
-1. **Random Forest**:
+4.1 **Random Forest**:
    - Evaluated financial activity patterns.  
    - Achieved **94% accuracy** for non-churn predictions but struggled with churn detection.
+  
+### A. Data Distribution 
 
-2. **Logistic Regression**:
-   - Analyzed geographic and net worth factors.  
-   - Highlighted customer segments at higher churn risk.  
+   ![report](https://github.com/user-attachments/assets/ba05bb97-f1de-4df0-b3bc-c5e942d6e9ca)
 
-3. **Decision Tree Classifier**:
-   - Explored transaction patterns and their temporal effects.  
+    
+    ---
 
-4. **XGBoost**:
-   - Focused on demographic and tenure impact.  
+### B. Potential Outliers 
+  <img width="700" alt="image" src="https://github.com/user-attachments/assets/c8ffc76e-ffe4-47e6-8317-a9f79db670af" />
 
-### **Evaluation Metrics**:
-- Accuracy, Precision, Recall, F1-Score.  
-- Confusion matrices highlight areas for improvement in churn prediction.  
+    ---
 
-_Example Image_:  
-![Confusion Matrix](./images/confusion_matrix.png)
+### C. Correlation Heatmap of Financial Activity Metrics in Relation to Churn Prediction
+  <img width="700" alt="image" src="https://github.com/user-attachments/assets/b1dc4ce0-21ee-4ae0-bd7c-f037f4db826e" />
+
+    ---
+
+### D. Multivariate Regression Analysis of Financial Activity Metrics for Churn Prediction
+  <img width="700" alt="Screenshot 2025-01-03 at 11 14 22 AM" src="https://github.com/user-attachments/assets/abcef536-4a6e-4897-94e2-0ae8e9303af7" />
+
+    ---
+    
+### E. OLAP Dashboard for Financial Metrics Distribution
+   <img width="350" alt="Screenshot 2025-01-03 at 11 15 29 AM" src="https://github.com/user-attachments/assets/5dc4a553-4c7d-4aa6-93be-de95a66500d0" />
+   <img width="350" alt="Screenshot 2025-01-03 at 11 16 11 AM" src="https://github.com/user-attachments/assets/97cef3f3-ea08-4c4b-a57f-c9c9d572c8d8" />
+   <img width="350" alt="Screenshot 2025-01-03 at 11 16 44 AM" src="https://github.com/user-attachments/assets/7ae692e6-85e3-4d7c-8e8e-15fa87d5b2d9" />
+   <img width="350" alt="Screenshot 2025-01-03 at 11 16 44 AM" src="https://github.com/user-attachments/assets/7ae692e6-85e3-4d7c-8e8e-15fa87d5b2d9" />
+   <img width="350" alt="Screenshot 2025-01-03 at 11 17 29 AM" src="https://github.com/user-attachments/assets/ae95aadb-ef5e-43a3-a648-119a02a73da1" />
+   <img width="350" alt="Screenshot 2025-01-03 at 11 17 48 AM" src="https://github.com/user-attachments/assets/b660a5a8-2d67-4c5f-a48c-9c7b1a041b44" /> 
+   <img width="350" alt="Screenshot 2025-01-03 at 11 18 21 AM" src="https://github.com/user-attachments/assets/d11faacf-c552-4c9a-901b-317e8ff2b9a3" />
+   <img width="350" alt="Screenshot 2025-01-03 at 11 18 56 AM" src="https://github.com/user-attachments/assets/b32e63d8-f5b5-44bb-b101-52065b4ab0fd" />
+
+
+### F. Predictive Analysis – Random Forest Classifier
+   <img width="700" alt="Screenshot 2025-01-03 at 11 31 20 AM" src="https://github.com/user-attachments/assets/9b26bea2-61b0-4e03-b11f-fbb685a0b453" />
+
+
+    ---
+
+
+   <img width="700" alt="Screenshot 2025-01-03 at 11 31 47 AM" src="https://github.com/user-attachments/assets/e5e464b1-0082-4b21-8445-c579394c5a0d" />
+
+    ---
+
+   <img width="700" alt="Screenshot 2025-01-03 at 11 32 21 AM" src="https://github.com/user-attachments/assets/04cfc633-e876-4c46-8a0f-75cdf7918047" />
+
+    ---
+
+   <img width="700" alt="Screenshot 2025-01-03 at 11 33 04 AM" src="https://github.com/user-attachments/assets/f105dbd0-8e8b-45fc-abbc-98f93495a8f7" />
+
+
+    ---
+
+
+   <img width="700" alt="Screenshot 2025-01-03 at 11 34 08 AM" src="https://github.com/user-attachments/assets/2de8a14c-ceb7-4bf2-8390-64052bde0130" />
+
+
+    ---
+
+
+   <img width="700" alt="Screenshot 2025-01-03 at 11 35 19 AM" src="https://github.com/user-attachments/assets/8d62bdcb-f132-4c81-a37e-4c95a29bafd8" />
+
+
+    ---
+
+
+   <img width="700" alt="Screenshot 2025-01-03 at 11 35 36 AM" src="https://github.com/user-attachments/assets/7a4ffe33-953c-495a-a77d-1224faca5dc8" />
+
 
 ---
 
-## **7. Results and Insights**
+4.2 **Logistic Regression**:
+   - Analyzed geographic and net worth factors.  
+   - Highlighted customer segments at higher churn risk.
+   - To evaluate the influence of customer net worth and geographic factors on churn
+  
+## Details in the Full Report...
+
+
+
+
+---
+4.3 **Decision Tree Classifier**:
+   - Explored transaction patterns and their temporal effects.
+   - To examine the correlation between temporal transaction patterns and churn
+  
+## Details in the Full Report...
+
+  ---
+4.4 **XGBoost**:
+   - Focused on demographic and tenure impact. 
+  
+
+## Details in the Full Report...
+
+
+---
+
+## **5. Results and Insights**
 
 - **High-Risk Segments**:
    - Customers with low balances and irregular transactions.  
@@ -192,12 +223,9 @@ _Example Image_:
    - Random Forest excels in non-churn prediction; requires tuning for churn detection.
    - XGBoost provides robust insights into demographic factors.  
 
-_Example Image_:  
-![Model Performance](./images/model_performance.png)
-
 ---
 
-## **8. Future Enhancements**
+## **6. Future Enhancements**
 1. Integrate advanced deep learning models like LSTMs for time-series analysis.  
 2. Incorporate real-time data for dynamic churn prediction.  
 3. Explore unsupervised learning for deeper customer segmentation.  
