@@ -1,7 +1,7 @@
 # Hybrid-Machine-Learning-Models-for-Churn-Prediction-and-Customer-Behavior-Analytics-Using-Big-Data
 By leveraging customer financial activity data, geographic factors, and demographic attributes, the system aims to identify customers at risk of churn and help banks implement retention strategies. Using a structured approach following the CRISP-DM methodology, integrating descriptive analysis, predictive modeling, and interactive dashboards. 
 
-
+**<span style="color:red;">Full Report: </span>**
 
 ---
 
@@ -185,6 +185,7 @@ The project follows the six phases of the CRISP-DM framework:
    - To evaluate the influence of customer net worth and geographic factors on churn
   
 **<span style="color:red; font-size: 1.2em;">Details in the Full Report</span>**
+
 ---
 
 # 4.3 **Decision Tree Classifier**:
@@ -192,6 +193,7 @@ The project follows the six phases of the CRISP-DM framework:
    - To examine the correlation between temporal transaction patterns and churn
   
 **<span style="color:red; font-size: 1.2em;">Details in the Full Report</span>**
+
   ---
 # 4.4 **XGBoost**:
    - Focused on demographic and tenure impact. 
