@@ -100,10 +100,10 @@ The project follows the six phases of the CRISP-DM framework:
     
 
 
-4. **Modeling & Evaluation:**: 
+# 4. **Modeling & Evaluation:**: 
 
 
-4.1 **Random Forest**:
+# 4.1 **Random Forest**:
    - Evaluated financial activity patterns.  
    - Achieved **94% accuracy** for non-churn predictions but struggled with churn detection.
   
@@ -178,7 +178,7 @@ The project follows the six phases of the CRISP-DM framework:
 
 ---
 
-4.2 **Logistic Regression**:
+# 4.2 **Logistic Regression**:
    - Analyzed geographic and net worth factors.  
    - Highlighted customer segments at higher churn risk.
    - To evaluate the influence of customer net worth and geographic factors on churn
@@ -189,14 +189,14 @@ The project follows the six phases of the CRISP-DM framework:
 
 
 ---
-4.3 **Decision Tree Classifier**:
+# 4.3 **Decision Tree Classifier**:
    - Explored transaction patterns and their temporal effects.
    - To examine the correlation between temporal transaction patterns and churn
   
 ## Details in the Full Report...
 
   ---
-4.4 **XGBoost**:
+# 4.4 **XGBoost**:
    - Focused on demographic and tenure impact. 
   
 
