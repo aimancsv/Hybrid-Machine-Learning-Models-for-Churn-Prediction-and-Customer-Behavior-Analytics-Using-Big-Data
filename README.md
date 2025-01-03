@@ -55,7 +55,7 @@ The project follows the six phases of the CRISP-DM framework:
     ---
 3. **Data Preparation**: Clean, preprocess, and engineer features for machine learning.  
 
-    <img width="700" alt="Screenshot 2025-01-03 at 10 10 47 AM" src="https://github.com/user-attachments/assets/c704cfeb-205b-4450-aa8c-214318223ffd" />
+    <img width="500" alt="Screenshot 2025-01-03 at 10 10 47 AM" src="https://github.com/user-attachments/assets/c704cfeb-205b-4450-aa8c-214318223ffd" />
 
     ---
     <img width="500" alt="Screenshot 2025-01-03 at 10 09 57 AM" src="https://github.com/user-attachments/assets/0516e7f2-3591-4ebb-8cc6-92947d91d9d8" />
