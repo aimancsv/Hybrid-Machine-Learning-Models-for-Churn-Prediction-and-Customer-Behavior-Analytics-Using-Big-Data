@@ -1,14 +1,14 @@
 # Hybrid-Machine-Learning-Models-for-Churn-Prediction-and-Customer-Behavior-Analytics-Using-Big-Data
 By leveraging customer financial activity data, geographic factors, and demographic attributes, the system aims to identify customers at risk of churn and help banks implement retention strategies. Using a structured approach following the CRISP-DM methodology, integrating descriptive analysis, predictive modeling, and interactive dashboards. 
 
-**[Full Report](./Full_Report_pdf)**
+**[Full Report: 135 Pages](./Full_Report_pdf)**
 
 ---
 
 
 
 ## **Table of Contents**
-1. [Introduction](#introduction)  
+1. [Introduction](##introduction)  
 2. [Aim and Objectives](#aim-and-objectives)  
 3. [Big Data Analytics Lifecycle](#big-data-analytics-lifecycle)   
 4. [Modeling and Evaluation](#modeling-and-evaluation)  
