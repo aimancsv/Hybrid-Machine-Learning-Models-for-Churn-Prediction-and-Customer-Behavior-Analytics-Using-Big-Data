@@ -7,15 +7,19 @@ By leveraging customer financial activity data, geographic factors, and demograp
 
 
 
+
 ## **Table of Contents**
-1. [Introduction](#introduction) 
-2. [Aim-and-Objectives](#aim-and-objectives) 
-3. [Big-Data-Analytics-Lifecycle](#big-data-analytics-lifecycle) 
-4. [Modeling-and-Evaluation](#modeling-and-evaluation) 
-5. [Results-and-Insights](#results-and-insights) 
-6. [Future-Enhancements](#future-enhancements)
+
+1. [Introduction](#1-introduction)  
+2. [Aim and Objectives](#2-aim-and-objectives)  
+3. [Big Data Analytics Lifecycle](#3-big-data-analytics-lifecycle)  
+4. [Modeling and Evaluation](#4-modeling--evaluation)  
+5. [Results and Insights](#5-results-and-insights)  
+6. [Future Enhancements](#6-future-enhancements)
 
 ---
+
+
 
 ## **1. Introduction**
 Customer churn, the phenomenon where customers discontinue their relationship with a bank, is a critical challenge in the financial sector. This project uses machine learning and big data techniques to predict churn, leveraging patterns in customer behavior such as demographics, financial transactions, and tenure. The insights generated enable banks to proactively address churn risks and implement personalized retention strategies.
